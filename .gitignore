@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Dependências de build
+dist/
+build/
+
+# Arquivos de log
+*.log
+
+# Ambiente do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos gerados pelo sistema
+*.tgz
+*.zip
+
+# Arquivos do Operador de Conexão do Venom-Bot
+venom_session/
